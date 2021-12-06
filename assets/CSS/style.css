@@ -1,0 +1,47 @@
+:root {
+  --main-color: #ffffff;
+  --second-color: #f7f5f4;
+  --top-color: #030203;
+  --btn-color: #ff930f;
+  --font-icon-color: #382526;
+  --footer-color: #232323;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+nav {
+  background: var(--top-color);
+}
+.navigations {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  margin: 0px 3rem;
+  font-size: 0.8rem;
+}
+.menu-content {
+  display: flex;
+}
+
+.menu-content ul {
+  display: flex;
+  margin: 5px;
+}
+.menu-content ul li {
+  align-self: center;
+  justify-self: center;
+}
+.menu-content ul li a {
+  text-decoration: none;
+  color: var(--second-color);
+  margin: 0px 10px;
+  text-transform: uppercase;
+}
+
+.btn {
+  height: 100%;
+  height: 100%;
+  background: var(--btn-color);
+}
