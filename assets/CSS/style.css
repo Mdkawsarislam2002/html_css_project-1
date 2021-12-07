@@ -1,11 +1,12 @@
 :root {
   --main-color: #ffffff;
-  --second-color: #f7f5f4;
+  --second-color: #e7e5e4;
   --top-color: #030203;
   --btn-color: #ff930f;
   --font-icon-color: #382526;
   --footer-color: #232323;
   --medium-color: rgba(255, 245, 245, 0.521);
+  --font-color: #6a6a6a;
 }
 * {
   margin: 0px;
@@ -15,6 +16,7 @@
 nav {
   background: var(--top-color);
   position: sticky;
+  top: 0;
 }
 .navigations {
   display: flex;
@@ -136,4 +138,96 @@ nav {
 .skill img {
   margin: 0px auto;
   width: 3rem;
+}
+.qna-intro {
+  color: rgb(34, 33, 33);
+  text-align: center;
+  margin: 2em;
+  font-size: 1.5rem;
+}
+/* QNA  part designe */
+.qna-area {
+  display: grid;
+  grid-gap: 3rem 2rem;
+  grid-template-columns: 45% 45%;
+  place-content: center;
+  font-size: 1.2em;
+  margin: 2rem;
+}
+.qna {
+  font-size: 100%;
+  color: var(--font-color);
+}
+.qna h4 {
+  font-size: 1.3rem;
+  color: #2a2929;
+}
+.highlight,
+.highlight > a {
+  color: rgba(16, 67, 177, 0.794);
+  text-transform: uppercase;
+}
+.highlight > a {
+  text-decoration-color: deepskyblue;
+}
+/* details style */
+.details {
+  background: var(--second-color);
+  margin: 2rem 5rem;
+  min-height: 12rem;
+}
+.details p {
+  padding: 3rem 2rem;
+  font-size: 1.2rem;
+  text-align: left;
+}
+/* .details {
+  text-align: right;
+} */
+
+.buttom__btn {
+  background: #ff8c00;
+  font-weight: bolder;
+  color: var(--second-color);
+  padding: 0.8rem 1rem;
+  margin: 2rem;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+.buttom__btn:hover {
+  color: var(--main-color);
+}
+/* footer designe  */
+.footer {
+  background: var(--footer-color);
+}
+
+.footer-area {
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--footer-color);
+  color: var(--second-color);
+  padding: 3rem 2rem 1rem;
+}
+.social-icon img {
+  width: 1.5rem;
+}
+.social-icon a {
+  text-decoration: none;
+  padding: 2rem 0.5rem;
+}
+.social-icon {
+  width: 10%;
+}
+.footer-content {
+  margin: 0.5rem;
+  flex: 1 1 auto;
+}
+.footer-content h5 {
+  font-size: 1.3rem;
+  margin: 1rem 0px;
+  text-transform: uppercase;
+}
+#about-web {
+  width: 50%;
 }

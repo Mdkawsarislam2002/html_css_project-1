@@ -1,4 +1,5 @@
 /* for mobile and teb  */
+
 @media screen and (max-width: 768px) {
   .btn {
     width: 50%;
@@ -15,5 +16,28 @@
   }
   .main-content {
     font-size: 0.8em;
+  }
+  .qna-area {
+    grid-template-columns: 100%;
+    justify-content: flex-start;
+    margin: 2rem 0.5rem;
+  }
+
+  .details {
+    margin: 1rem 2rem;
+    height: 100%;
+    text-align: right;
+  }
+  .buttom__btn {
+    margin: 2rem;
+  }
+  .footer-area {
+    flex-direction: column;
+  }
+  #about-web {
+    width: 100%;
+  }
+  .social-icon {
+    width: 100%;
   }
 }
